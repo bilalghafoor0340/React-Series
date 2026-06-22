@@ -1,9 +1,12 @@
+import Card from "./components/Card";
 import "./App.css";
-import Card from "./Components/Card";
+
 
 function App() {
   return (
     <>
+      <Card title = "Science of Chemistry" rating = "4.5"/>
+      <Card title = "Mathematics" rating = "4.2"/>
       
     </>
   );
